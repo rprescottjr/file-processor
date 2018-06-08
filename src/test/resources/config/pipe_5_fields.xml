@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<file>
+    <delimiter>|</delimiter>
+    <containsHeader>false</containsHeader>
+    <field>
+        <name>Field1</name>
+        <description>Field with exactly 5 characters</description>
+        <validationRule>
+            <id>1</id>
+        </validationRule>
+        <validationRule>
+            <id>2</id>
+            <metadata>5</metadata>
+        </validationRule>
+    </field>
+    <field>
+        <name>Field2</name>
+        <description>Optional Field with date format</description>
+        <validationRule>
+            <id>4</id>
+            <metadata>yyyy-MM-dd</metadata>
+        </validationRule>
+    </field>
+    <field>
+        <name>Field3</name>
+        <description>Optional Field with up to 5 characters</description>
+        <validationRule>
+            <id>3</id>
+            <metadata>5</metadata>
+        </validationRule>
+    </field>
+    <field>
+        <name>Field4</name>
+        <description>Optional Field that must be numeric</description>
+        <validationRule>
+            <id>5</id>
+        </validationRule>
+    </field>
+    <field>
+        <name>Field5</name>
+        <description>Field with no rules</description>
+    </field>
+</file>
